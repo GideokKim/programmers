@@ -1,10 +1,8 @@
 #include <string>
 #include <vector>
 
-using namespace std;
-
-string solution(string code) {
-  string answer = "";
+std::string solution(std::string code) {
+  std::string answer = "";
   int mode = 0;
   for (size_t index = 0; index < code.size(); ++index) {
     if (mode == 0) {
