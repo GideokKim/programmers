@@ -1,5 +1,4 @@
 #include <string>
-#include <vector>
 
 std::string solution(std::string code) {
   std::string answer = "";
